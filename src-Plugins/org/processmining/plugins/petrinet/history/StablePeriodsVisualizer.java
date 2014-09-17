@@ -30,7 +30,6 @@ public class StablePeriodsVisualizer {
         label.setFont(new Font("Dialog", Font.BOLD, 18));
         JTable table=new JTable(new StablePeriodsTableModel(stablePeriods));
 
-
         panel.add(label,BorderLayout.PAGE_START);
         panel.add(new JScrollPane(table),BorderLayout.CENTER);
         return panel;
